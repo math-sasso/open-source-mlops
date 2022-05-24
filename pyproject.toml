@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "open-source-mlops"
+version = "0.1.0"
+description = ""
+authors = ["Matheus Sasso <matheus.sasso17@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flake8 = "^4.0.1"
+cookiecutter = "^1.7.3"
+dvc = {extras = ["gdrive"], version = "^2.10.2"}
+numpy = "^1.22.4"
+pandas = "^1.4.2"
+sklearn = "^0.0"
+mlflow = "^1.26.0"
+joblib = "^1.1.0"
+Flask = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
