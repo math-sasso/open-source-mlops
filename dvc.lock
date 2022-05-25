@@ -44,7 +44,7 @@ stages:
     params:
       params.yaml:
         random_forest.max_depth: 10
-        random_forest.n_estimators: 30
+        random_forest.n_estimators: 29
   log_production_model:
     cmd: poetry run python3 src/models/production_model_selection.py --config=params.yaml
     deps:
@@ -54,8 +54,8 @@ stages:
     params:
       params.yaml:
         random_forest.max_depth: 10
-        random_forest.n_estimators: 30
+        random_forest.n_estimators: 29
     outs:
     - path: models/model.joblib
-      md5: 252081c61ccef619f0ae2ca6814e2fbd
-      size: 641286
+      md5: 85ef87fbe017c2548065e6c9a6c9a044
+      size: 599106
