@@ -5,6 +5,13 @@
 End to End Machine learning pipeline with MLOps tools
 This project contains my own improvements from the amazin repository: shanakaChathu/churn_model
 
+## Endpoint
+`
+https://open-source-mlops-app.herokuapp.com/
+`
+
+
+
 Project Organization
 ------------
 
